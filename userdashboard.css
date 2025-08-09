@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f3e5ab;
+    /* Light coffee color */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard-container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #6f4e37;
+    /* Dark coffee color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff7e6;
+    /* Light coffee cream color */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    background-color: transparent;
+    color: #fff7e6;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu button:hover {
+    background-color: #a67b5b;
+    /* Medium coffee color */
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff7e6;
+    /* Light coffee cream */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #6f4e37;
+    /* Dark coffee color */
+    font-size: 28px;
+}
+
+#content {
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Profile Section Styling */
+.profile-card {
+    display: flex;
+    align-items: center;
+    background-color: #f3e5ab;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #6f4e37;
+    /* Dark coffee */
+}
+
+.profile-card div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card h2 {
+    margin: 0;
+    color: #6f4e37;
+    font-size: 22px;
+}
+
+.profile-card p {
+    margin: 5px 0 0;
+    color: #333;
+}
