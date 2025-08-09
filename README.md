@@ -1,2 +1,2 @@
 # coffee_shop
-coffee shop order system created by using html  , css ,javascript  php and mysql
+Coffee Shop Order System Created by using HTML CSS JAVASCRIPT PHP and MYSQL.
